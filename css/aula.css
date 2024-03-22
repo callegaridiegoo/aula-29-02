@@ -1,0 +1,78 @@
+/* zerando os espaços de margem em todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* seletor mais simples: nome da tag */
+body{
+    /* cor de fundo */
+    background-color: #331D2C;
+     /*cor da letra */
+     color: #B4D4FF ;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    font-style: italic;
+    /* trocando a fonte da letra */
+    font-family: 'Trebuchet MS';
+    margin: 2%;
+}
+
+p:hover{
+    background-color: #EFE1D1; 
+}
+
+/* seletor pelo atributo unico id */
+#broglio{
+    /* margem externa */
+    margin: 10%;
+    /* espaçamento interno */
+    padding: 10%;
+    background-color: #3F2E3E;
+    /* borda solida, 2px de espressura */
+    border:  2px solid #000;
+    /* borda arredondada */
+    border-radius: 10px;
+    /* sombra da caix: distancia H, distancia L, dispersão e cor*/
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* seletor com pseudo_classe :hover (quando passa o cursor faz oque ta dentro da tag */
+#broglio:hover{
+    background-color: #A78295;
+    /* troca cursor do mouse */
+    cursor: grab;
+    border-radius: 50px;
+}
+
+/* pseudo classe :active quando o botao do mouse esta apertado */
+#broglio :active{
+    cursor: grabbing;
+}
+
+.botao{
+    text-decoration: none;
+    padding: 1%;
+    font-family: 'comic sans';
+    font-size: medium;
+    border-radius: 10px;
+    border: solid;
+}
+
+.cor-texto{
+    color: #EEF5FF;
+}
+
+.cor-fundo{
+    background-color: #B4D4FF;
+}    
+
+.fonte-google{
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
